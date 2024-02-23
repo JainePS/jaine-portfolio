@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Jaine's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+puts "Welcome to Jaine's Portfolio repository! This project is her personal portfolio website built using React and TypeScript. It showcases Jaine's skills, projects, and provides insights into her professional journey."
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+puts "Ensure you have Node.js and npm installed on your machine."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Install dependencies:
 
-### `npm test`
+    ```ruby
+    system('npm install')
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Start the development server:
 
-### `npm run build`
+    ```ruby
+    system('npm start')
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    puts "Open http://localhost:3000 in your browser to view the portfolio."
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Available Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Build for Production:**
 
-### `npm run eject`
+    ```ruby
+    system('npm run build')
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    puts "This command builds the app for production."
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Run Tests:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ```ruby
+    system('npm test')
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    puts "Launches the test runner in interactive watch mode."
 
-## Learn More
+### Code Style and Linting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+puts "This project adheres to ESLint standards for code style. Ensure your code follows the defined guidelines."
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Browsers Compatibility
+
+puts "The project specifies browser compatibility settings in the browserslist configuration."
+
+## Dependencies
+
+- **React:** JavaScript library for building user interfaces.
+- **TypeScript:** Superset of JavaScript that adds static types.
+- **Tailwind CSS:** Utility-first CSS framework for rapidly building custom designs.
+- **Web Vitals:** Library for measuring real user experiences on the web.
+
+## Development Dependencies
+
+- **@testing-library/jest-dom:** Custom Jest matchers for asserting on DOM nodes.
+- **@testing-library/react:** Simple and complete React DOM testing utilities.
+- **@testing-library/user-event:** Simulate user events for testing.
+- **@types/jest, @types/node, @types/react, @types/react-dom:** TypeScript type definitions.
+- **flowbite:** Set of responsive and flexible components for building modern websites.
+
+## Contributing
+
+puts "Feel free to contribute by opening issues or creating pull requests."
+
+## License
+
+puts "This project is licensed under the MIT License. Your contributions are welcomed and appreciated!"
