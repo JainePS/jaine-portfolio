@@ -13,13 +13,13 @@ puts "Ensure you have Node.js and npm installed on your machine."
 1. Install dependencies:
 
     ```ruby
-    system('npm install')
+    npm install
     ```
 
 2. Start the development server:
 
     ```ruby
-    system('npm start')
+    npm start
     ```
 
     puts "Open http://localhost:3000 in your browser to view the portfolio."
@@ -29,7 +29,7 @@ puts "Ensure you have Node.js and npm installed on your machine."
 - **Build for Production:**
 
     ```ruby
-    system('npm run build')
+    npm run build
     ```
 
     puts "This command builds the app for production."
@@ -37,7 +37,7 @@ puts "Ensure you have Node.js and npm installed on your machine."
 - **Run Tests:**
 
     ```ruby
-    system('npm test')
+    npm test
     ```
 
     puts "Launches the test runner in interactive watch mode."
