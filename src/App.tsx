@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileHeader from "./profileHeader/ProfileHeader";
+import ProfileHeader from "./components/profileHeader/ProfileHeader";
 
 const App = () => {
   return (
